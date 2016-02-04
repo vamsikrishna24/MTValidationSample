@@ -16,11 +16,18 @@ To overcome this problem I have created a class named “MTValidation” in whic
 
 3.The calling of method  sample code demonstrated below
 
-         //  [MtValidation stringwithAlphaNumerical:self.firstNameTextField.text];
+  [MtValidation validateEmail:@"Enter Email"]; 
+  
+** The above example code will Validate the entered User email.
+ 
+  [MtValidation validatePhoneNumber:@"Enter phone number"]; 
+
+** The above example code will Validate the entered User Phone number.
+
 
 ### Requirements
 
-- will support iOS 6.0 or higher
+- will support iOS 7.0 or higher
 - Automatic Reference Counting (ARC)
 
 ### Author
