@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A56D36F1C59F5FC00553396 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D36E1C59F5FC00553396 /* main.m */; };
+		9A56D3721C59F5FC00553396 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D3711C59F5FC00553396 /* AppDelegate.m */; };
+		9A56D3751C59F5FC00553396 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D3741C59F5FC00553396 /* ViewController.m */; };
+		9A56D3781C59F5FC00553396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A56D3761C59F5FC00553396 /* Main.storyboard */; };
+		9A56D37B1C59F5FC00553396 /* SignUpValidations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D3791C59F5FC00553396 /* SignUpValidations.xcdatamodeld */; };
+		9A56D37D1C59F5FC00553396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A56D37C1C59F5FC00553396 /* Assets.xcassets */; };
+		9A56D3801C59F5FC00553396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A56D37E1C59F5FC00553396 /* LaunchScreen.storyboard */; };
+		9A56D38B1C59F5FC00553396 /* MtValidationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D38A1C59F5FC00553396 /* MtValidationsTests.m */; };
+		9A56D3961C59F5FC00553396 /* MtValidationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D3951C59F5FC00553396 /* MtValidationsUITests.m */; };
+		9A56D3A51C59F8BD00553396 /* MtValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D3A41C59F8BD00553396 /* MtValidation.m */; };
+		9A8B8DAA1C60C74D00F5CE73 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A8B8DA91C60C74D00F5CE73 /* images.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A56D3871C59F5FC00553396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A56D3621C59F5FC00553396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A56D3691C59F5FC00553396;
+			remoteInfo = SignUpValidations;
+		};
+		9A56D3921C59F5FC00553396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A56D3621C59F5FC00553396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A56D3691C59F5FC00553396;
+			remoteInfo = SignUpValidations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A56D36A1C59F5FC00553396 /* MtValidations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MtValidations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A56D36E1C59F5FC00553396 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A56D3701C59F5FC00553396 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A56D3711C59F5FC00553396 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A56D3731C59F5FC00553396 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A56D3741C59F5FC00553396 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A56D3771C59F5FC00553396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A56D37A1C59F5FC00553396 /* SignUpValidations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SignUpValidations.xcdatamodel; sourceTree = "<group>"; };
+		9A56D37C1C59F5FC00553396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A56D37F1C59F5FC00553396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A56D3811C59F5FC00553396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A56D3861C59F5FC00553396 /* MtValidations.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtValidations.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A56D38A1C59F5FC00553396 /* MtValidationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtValidationsTests.m; sourceTree = "<group>"; };
+		9A56D38C1C59F5FC00553396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A56D3911C59F5FC00553396 /* MtValidations.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtValidations.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A56D3951C59F5FC00553396 /* MtValidationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtValidationsUITests.m; sourceTree = "<group>"; };
+		9A56D3971C59F5FC00553396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A56D3A31C59F8BD00553396 /* MtValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtValidation.h; sourceTree = "<group>"; };
+		9A56D3A41C59F8BD00553396 /* MtValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtValidation.m; sourceTree = "<group>"; };
+		9A8B8DA91C60C74D00F5CE73 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A56D3671C59F5FC00553396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A56D3831C59F5FC00553396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A56D38E1C59F5FC00553396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A4B60201C632EB500D65318 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				9A56D3731C59F5FC00553396 /* ViewController.h */,
+				9A56D3741C59F5FC00553396 /* ViewController.m */,
+			);
+			name = Example;
+			path = SignUpValidations;
+			sourceTree = "<group>";
+		};
+		9A56D3611C59F5FC00553396 = {
+			isa = PBXGroup;
+			children = (
+				9A4B60201C632EB500D65318 /* Example */,
+				9A56D36C1C59F5FC00553396 /* MtValidations */,
+				9A56D3891C59F5FC00553396 /* MtValidationsTests */,
+				9A56D3941C59F5FC00553396 /* MtValidationsUITests */,
+				9A56D36B1C59F5FC00553396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A56D36B1C59F5FC00553396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A56D36A1C59F5FC00553396 /* MtValidations.app */,
+				9A56D3861C59F5FC00553396 /* MtValidations.xctest */,
+				9A56D3911C59F5FC00553396 /* MtValidations.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A56D36C1C59F5FC00553396 /* MtValidations */ = {
+			isa = PBXGroup;
+			children = (
+				9A56D3701C59F5FC00553396 /* AppDelegate.h */,
+				9A56D3711C59F5FC00553396 /* AppDelegate.m */,
+				9A56D3A31C59F8BD00553396 /* MtValidation.h */,
+				9A56D3A41C59F8BD00553396 /* MtValidation.m */,
+				9A56D3761C59F5FC00553396 /* Main.storyboard */,
+				9A56D37C1C59F5FC00553396 /* Assets.xcassets */,
+				9A56D37E1C59F5FC00553396 /* LaunchScreen.storyboard */,
+				9A56D3811C59F5FC00553396 /* Info.plist */,
+				9A56D3791C59F5FC00553396 /* SignUpValidations.xcdatamodeld */,
+				9A56D36D1C59F5FC00553396 /* Supporting Files */,
+			);
+			name = MtValidations;
+			path = SignUpValidations;
+			sourceTree = "<group>";
+		};
+		9A56D36D1C59F5FC00553396 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8B8DA91C60C74D00F5CE73 /* images.jpeg */,
+				9A56D36E1C59F5FC00553396 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A56D3891C59F5FC00553396 /* MtValidationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A56D38A1C59F5FC00553396 /* MtValidationsTests.m */,
+				9A56D38C1C59F5FC00553396 /* Info.plist */,
+			);
+			name = MtValidationsTests;
+			path = SignUpValidationsTests;
+			sourceTree = "<group>";
+		};
+		9A56D3941C59F5FC00553396 /* MtValidationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A56D3951C59F5FC00553396 /* MtValidationsUITests.m */,
+				9A56D3971C59F5FC00553396 /* Info.plist */,
+			);
+			name = MtValidationsUITests;
+			path = SignUpValidationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A56D3691C59F5FC00553396 /* MtValidations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A56D39A1C59F5FC00553396 /* Build configuration list for PBXNativeTarget "MtValidations" */;
+			buildPhases = (
+				9A56D3661C59F5FC00553396 /* Sources */,
+				9A56D3671C59F5FC00553396 /* Frameworks */,
+				9A56D3681C59F5FC00553396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MtValidations;
+			productName = SignUpValidations;
+			productReference = 9A56D36A1C59F5FC00553396 /* MtValidations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A56D3851C59F5FC00553396 /* MtValidationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A56D39D1C59F5FC00553396 /* Build configuration list for PBXNativeTarget "MtValidationsTests" */;
+			buildPhases = (
+				9A56D3821C59F5FC00553396 /* Sources */,
+				9A56D3831C59F5FC00553396 /* Frameworks */,
+				9A56D3841C59F5FC00553396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A56D3881C59F5FC00553396 /* PBXTargetDependency */,
+			);
+			name = MtValidationsTests;
+			productName = SignUpValidationsTests;
+			productReference = 9A56D3861C59F5FC00553396 /* MtValidations.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A56D3901C59F5FC00553396 /* MtValidationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A56D3A01C59F5FC00553396 /* Build configuration list for PBXNativeTarget "MtValidationsUITests" */;
+			buildPhases = (
+				9A56D38D1C59F5FC00553396 /* Sources */,
+				9A56D38E1C59F5FC00553396 /* Frameworks */,
+				9A56D38F1C59F5FC00553396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A56D3931C59F5FC00553396 /* PBXTargetDependency */,
+			);
+			name = MtValidationsUITests;
+			productName = SignUpValidationsUITests;
+			productReference = 9A56D3911C59F5FC00553396 /* MtValidations.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A56D3621C59F5FC00553396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "paradigm-creatives";
+				TargetAttributes = {
+					9A56D3691C59F5FC00553396 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9A56D3851C59F5FC00553396 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9A56D3691C59F5FC00553396;
+					};
+					9A56D3901C59F5FC00553396 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9A56D3691C59F5FC00553396;
+					};
+				};
+			};
+			buildConfigurationList = 9A56D3651C59F5FC00553396 /* Build configuration list for PBXProject "MtValidations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A56D3611C59F5FC00553396;
+			productRefGroup = 9A56D36B1C59F5FC00553396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A56D3691C59F5FC00553396 /* MtValidations */,
+				9A56D3851C59F5FC00553396 /* MtValidationsTests */,
+				9A56D3901C59F5FC00553396 /* MtValidationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A56D3681C59F5FC00553396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A56D3801C59F5FC00553396 /* LaunchScreen.storyboard in Resources */,
+				9A8B8DAA1C60C74D00F5CE73 /* images.jpeg in Resources */,
+				9A56D37D1C59F5FC00553396 /* Assets.xcassets in Resources */,
+				9A56D3781C59F5FC00553396 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A56D3841C59F5FC00553396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A56D38F1C59F5FC00553396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A56D3661C59F5FC00553396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A56D3751C59F5FC00553396 /* ViewController.m in Sources */,
+				9A56D3721C59F5FC00553396 /* AppDelegate.m in Sources */,
+				9A56D3A51C59F8BD00553396 /* MtValidation.m in Sources */,
+				9A56D37B1C59F5FC00553396 /* SignUpValidations.xcdatamodeld in Sources */,
+				9A56D36F1C59F5FC00553396 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A56D3821C59F5FC00553396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A56D38B1C59F5FC00553396 /* MtValidationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A56D38D1C59F5FC00553396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A56D3961C59F5FC00553396 /* MtValidationsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A56D3881C59F5FC00553396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A56D3691C59F5FC00553396 /* MtValidations */;
+			targetProxy = 9A56D3871C59F5FC00553396 /* PBXContainerItemProxy */;
+		};
+		9A56D3931C59F5FC00553396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A56D3691C59F5FC00553396 /* MtValidations */;
+			targetProxy = 9A56D3921C59F5FC00553396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A56D3761C59F5FC00553396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A56D3771C59F5FC00553396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A56D37E1C59F5FC00553396 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A56D37F1C59F5FC00553396 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A56D3981C59F5FC00553396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A56D3991C59F5FC00553396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A56D39B1C59F5FC00553396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignUpValidations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paradigmcreatives.SignUpValidations;
+				PRODUCT_NAME = MtValidations;
+			};
+			name = Debug;
+		};
+		9A56D39C1C59F5FC00553396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignUpValidations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paradigmcreatives.SignUpValidations;
+				PRODUCT_NAME = MtValidations;
+			};
+			name = Release;
+		};
+		9A56D39E1C59F5FC00553396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignUpValidationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paradigmcreatives.SignUpValidationsTests;
+				PRODUCT_NAME = MtValidations;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtValidations.app/MtValidations";
+			};
+			name = Debug;
+		};
+		9A56D39F1C59F5FC00553396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignUpValidationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paradigmcreatives.SignUpValidationsTests;
+				PRODUCT_NAME = MtValidations;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtValidations.app/MtValidations";
+			};
+			name = Release;
+		};
+		9A56D3A11C59F5FC00553396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignUpValidationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paradigmcreatives.SignUpValidationsUITests;
+				PRODUCT_NAME = MtValidations;
+				TEST_TARGET_NAME = SignUpValidations;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A56D3A21C59F5FC00553396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignUpValidationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paradigmcreatives.SignUpValidationsUITests;
+				PRODUCT_NAME = MtValidations;
+				TEST_TARGET_NAME = SignUpValidations;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A56D3651C59F5FC00553396 /* Build configuration list for PBXProject "MtValidations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A56D3981C59F5FC00553396 /* Debug */,
+				9A56D3991C59F5FC00553396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A56D39A1C59F5FC00553396 /* Build configuration list for PBXNativeTarget "MtValidations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A56D39B1C59F5FC00553396 /* Debug */,
+				9A56D39C1C59F5FC00553396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A56D39D1C59F5FC00553396 /* Build configuration list for PBXNativeTarget "MtValidationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A56D39E1C59F5FC00553396 /* Debug */,
+				9A56D39F1C59F5FC00553396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A56D3A01C59F5FC00553396 /* Build configuration list for PBXNativeTarget "MtValidationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A56D3A11C59F5FC00553396 /* Debug */,
+				9A56D3A21C59F5FC00553396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A56D3791C59F5FC00553396 /* SignUpValidations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A56D37A1C59F5FC00553396 /* SignUpValidations.xcdatamodel */,
+			);
+			currentVersion = 9A56D37A1C59F5FC00553396 /* SignUpValidations.xcdatamodel */;
+			path = SignUpValidations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A56D3621C59F5FC00553396 /* Project object */;
+}
