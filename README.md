@@ -25,4 +25,4 @@ To overcome this problem I have created an inherited class of “UITextField” 
 
 ### Author
 
-- [Vamsi Krishna](https://github.com/vamsikrishna24))
+- [Vamsi Krishna](https://github.com/vamsikrishna24)
