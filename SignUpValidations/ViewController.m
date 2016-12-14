@@ -114,6 +114,13 @@
         }
     }
     
+    if(!errorMsg){
+        [[[UIAlertView alloc] initWithTitle:@"Validated"
+                                    message:errorMsg
+                                   delegate:nil
+                          cancelButtonTitle:@"OK"
+                          otherButtonTitles:nil] show];
+    }
 
 }
 
