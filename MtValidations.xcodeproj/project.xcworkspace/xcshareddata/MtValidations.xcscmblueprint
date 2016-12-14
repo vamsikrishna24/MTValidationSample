@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "540C6B0BFD8263A0303CD7F6C1F5E194A333E9E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "320BBBE50DEA864291D24F683C08D966B65BCC13" : 9223372036854775807,
+    "540C6B0BFD8263A0303CD7F6C1F5E194A333E9E8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C6C10CCC-12A9-409F-9EA6-2DE84C1AC40F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "320BBBE50DEA864291D24F683C08D966B65BCC13" : "",
+    "540C6B0BFD8263A0303CD7F6C1F5E194A333E9E8" : "MtValidations\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MtValidations",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MtValidations.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/idsnextios\/pulze-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "320BBBE50DEA864291D24F683C08D966B65BCC13"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vamsikrishna24\/MTValidationSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "540C6B0BFD8263A0303CD7F6C1F5E194A333E9E8"
+    }
+  ]
+}
